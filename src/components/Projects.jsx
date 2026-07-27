@@ -11,6 +11,7 @@ const Projects = () => {
       image: "/images/zyergon-screenshot.png",
       technologies: ["React", "Tailwind CSS", "Vite", "E-commerce"],
       liveLink: "https://zyergon.com/",
+      vercelLink: "https://zyergon.vercel.app/",
       githubLink: "https://github.com/AlHamidMehmood/Zyergon",
       isPrivate: true,
       projectType: "Paid Client Project"
@@ -130,7 +131,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex space-x-4">
+                <div className="flex flex-wrap gap-x-4 gap-y-2">
                   {project.liveLink && (
                     <a
                       href={project.liveLink}
@@ -139,7 +140,18 @@ const Projects = () => {
                       className="flex items-center text-teal-600 dark:text-teal-400 hover:text-teal-800 dark:hover:text-teal-300 font-medium text-sm"
                     >
                       <ExternalLink size={14} className="mr-1" />
-                      Live Demo
+                      {project.vercelLink ? "Client Site" : "Live Demo"}
+                    </a>
+                  )}
+                  {project.vercelLink && (
+                    <a
+                      href={project.vercelLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-300 font-medium text-sm"
+                    >
+                      <ExternalLink size={14} className="mr-1" />
+                      Original Design
                     </a>
                   )}
                   {project.githubLink && (
