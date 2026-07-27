@@ -19,7 +19,7 @@ const Hero = () => {
             <div className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8 min-h-[60px]">
               <Typewriter
                 options={{
-                  strings: ['MERN Stack Developer', 'Full Stack Developer', 'JavaScript Enthusiast', 'IT Student'],
+                  strings: ['MERN Stack Developer', 'JavaScript Enthusiast', 'IT Student'],
                   autoStart: true,
                   loop: true,
                   delay: 100,

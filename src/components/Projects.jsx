@@ -64,21 +64,27 @@ const Projects = () => {
     },
     {
       id: 7,
-      title: "Sun and Moon Theme",
-      description: "Dynamic theme switching application with beautiful sun and moon animations.",
-      image: "/images/sun-moon-screenshot.png",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveLink: "https://sun-and-moon-two.vercel.app/",
-      githubLink: "https://github.com/abdulbasitpro/sun-and-moon"
+      title: "Cleaning Services Platform",
+      description: "A professional service booking and cleaning management interface built with responsive components.",
+      image: "/images/cleaning-screenshot.png",
+      technologies: ["React", "Tailwind CSS", "Vite"],
+      liveLink: "https://cleaning-gamma-six.vercel.app/"
     },
     {
       id: 8,
-      title: "Netflix Clone",
-      description: "A Netflix-inspired streaming platform with movie browsing and recommendations.",
-      image: "/images/netflix-clone-screenshot.png",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      liveLink: "https://netflix-by-abdul-basit.vercel.app/",
-      githubLink: "https://github.com/abdulbasitpro/Netflix-"
+      title: "Le Boutique Food & Hotel",
+      description: "A luxury conceptual web platform for a boutique food concept store and hotel showcase.",
+      image: "/images/boutique-screenshot.png",
+      technologies: ["React", "Tailwind CSS", "Vite", "Luxury Design"],
+      liveLink: "https://le-boutiquero.vercel.app/"
+    },
+    {
+      id: 9,
+      title: "Bajaur Flour Mall",
+      description: "A modern automated flour milling business portal presenting ISO safety standards, products, and milling technology.",
+      image: "/images/flour-mall-screenshot.png",
+      technologies: ["React", "Tailwind CSS", "Vite"],
+      liveLink: "https://bajaur-flourer-mall.vercel.app/"
     }
   ];
 

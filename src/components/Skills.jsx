@@ -68,7 +68,7 @@ const softSkills = [
 const stats = [
   { value: '18+', label: 'Technologies', icon: Layers },
   { value: '1.5',  label: 'Years Building', icon: Code2 },
-  { value: '10+', label: 'Projects Shipped', icon: Globe }
+  { value: '5', label: 'Projects Shipped', icon: Globe }
 ];
 
 /* ─── Sub-components ────────────────────────────────────────────────────── */
