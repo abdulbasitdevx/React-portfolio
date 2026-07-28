@@ -165,7 +165,7 @@ const Contact = () => {
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="https://github.com/abdulbasitpro"
+                  href="https://github.com/abdulbasitdevx"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-teal-600 text-white rounded-full flex items-center justify-center hover:bg-gray-900 transition-colors duration-200 shadow-md hover:shadow-lg"
@@ -228,22 +228,20 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 {submitMessage && (
-                  <div className={`mb-4 p-3 rounded-md text-center ${
-                    submitMessage.includes('success')
+                  <div className={`mb-4 p-3 rounded-md text-center ${submitMessage.includes('success')
                       ? 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300'
                       : 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300'
-                  }`}>
+                    }`}>
                     {submitMessage}
                   </div>
                 )}
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className={`w-full py-3 px-4 rounded-md transition-colors duration-200 font-medium shadow-md hover:shadow-lg flex items-center justify-center ${
-                    isSubmitting
+                  className={`w-full py-3 px-4 rounded-md transition-colors duration-200 font-medium shadow-md hover:shadow-lg flex items-center justify-center ${isSubmitting
                       ? 'bg-gray-400 cursor-not-allowed'
                       : 'bg-teal-600 hover:bg-teal-700 text-white'
-                  }`}
+                    }`}
                 >
                   {isSubmitting ? (
                     <>

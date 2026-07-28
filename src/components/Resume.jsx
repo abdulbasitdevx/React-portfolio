@@ -174,7 +174,7 @@ const Resume = () => {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/abdulbasitpro"
+                href="https://github.com/abdulbasitdevx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 bg-teal-600 text-white rounded-lg hover:bg-gray-900 transition-colors duration-200 text-sm font-medium"

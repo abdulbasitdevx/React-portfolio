@@ -37,7 +37,7 @@ const Footer = () => {
                 <Linkedin size={24} />
               </a>
               <a
-                href="https://github.com/abdulbasitpro"
+                href="https://github.com/abdulbasitdevx"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 dark:text-gray-400 hover:text-teal-400 transition-colors duration-200"

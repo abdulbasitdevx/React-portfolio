@@ -156,8 +156,8 @@ const Projects = () => {
                   )}
                   {project.githubLink && (
                     project.isPrivate ? (
-                      <span 
-                        className="flex items-center text-gray-400 dark:text-gray-500 font-medium text-sm cursor-not-allowed" 
+                      <span
+                        className="flex items-center text-gray-400 dark:text-gray-500 font-medium text-sm cursor-not-allowed"
                         title="This repository is private"
                       >
                         <Lock size={14} className="mr-1" />
@@ -198,7 +198,7 @@ const Projects = () => {
               LinkedIn
             </a>
             <a
-              href="https://github.com/abdulbasitpro"
+              href="https://github.com/abdulbasitdevx"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-teal-600 text-white rounded-lg hover:bg-gray-900 transition-colors duration-200 font-medium shadow-lg hover:shadow-xl"
