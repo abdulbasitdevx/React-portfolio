@@ -252,10 +252,18 @@ const Resume = () => {
                   Credential ID: SMIT/2026/WMA/B3/322000
                 </p>
               </div>
-              <div className="mt-4">
-                <span className="inline-flex items-center text-sm font-medium text-teal-600 dark:text-teal-400">
+              <div className="mt-4 flex items-center justify-between">
+                <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
                   Completed March 2026
                 </span>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-sm font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 hover:underline"
+                >
+                  View Certificate <ExternalLink size={14} className="ml-1" />
+                </a>
               </div>
             </div>
           </div>
