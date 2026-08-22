@@ -231,26 +231,31 @@ const Resume = () => {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm relative overflow-hidden flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between mb-4">
-                  <Award className="w-8 h-8 text-gray-400 dark:text-gray-500" />
-                  <span className="text-xs font-semibold px-2.5 py-0.5 rounded bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-300 animate-pulse">
-                    In Progress
+                  <Award className="w-8 h-8 text-yellow-600 dark:text-yellow-400" />
+                  <span className="text-xs font-semibold px-2.5 py-0.5 rounded bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-300">
+                    Verified
                   </span>
                 </div>
                 <h4 className="text-lg font-bold text-gray-800 dark:text-white mb-1">
-                  MERN Stack Development
+                  Web and Mobile App Development
                 </h4>
                 <p className="text-sm text-teal-600 dark:text-teal-400 font-medium mb-2">
                   SMIT (Saylani Mass IT Training)
                 </p>
                 <p className="text-xs text-gray-500 dark:text-gray-400 mb-4 flex items-center">
-                  <Calendar size={12} className="mr-1" /> 2024 - 2026
+                  <Calendar size={12} className="mr-1" /> Nov 2024 - Mar 2026
                 </p>
-                <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">
-                  1.5-year intensive training covering modern web technologies and full-stack development practices.
+                <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">
+                  17-Month intensive training covering modern web technologies and full-stack development practices.
+                </p>
+                <p className="text-xs text-gray-500 dark:text-gray-400 font-mono">
+                  Credential ID: SMIT/2026/WMA/B3/322000
                 </p>
               </div>
-              <div className="mt-4 text-sm font-medium text-gray-500 dark:text-gray-400 flex items-center">
-                <Calendar size={14} className="mr-1" /> Expected Graduation 2026
+              <div className="mt-4">
+                <span className="inline-flex items-center text-sm font-medium text-teal-600 dark:text-teal-400">
+                  Completed March 2026
+                </span>
               </div>
             </div>
           </div>
