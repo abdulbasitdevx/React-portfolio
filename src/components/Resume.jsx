@@ -42,19 +42,11 @@ const Resume = () => {
     },
     {
       id: 2,
-      position: "MERN Stack Developer (Personal Projects)",
-      company: "",
-      year: "2025 – Present",
+      position: "Freelance MERN Stack Developer",
+      company: "Freelance",
+      year: "2024 – Present",
       description:
-        "Building full-stack applications using MongoDB, Express, React, and Node.js. Learning through personal projects, documentation, and online resources. Focusing on REST APIs, authentication, databases, and deployments.",
-    },
-    {
-      id: 3,
-      position: "Web Developer (Learning & Personal Projects)",
-      company: "",
-      year: "2024 – 2025",
-      description:
-        "Developing responsive websites with JavaScript, React, and Tailwind CSS. Improving UI/UX, component structure, and performance through practice. Learning version control, Git workflows, and modern web tooling.",
+        "Successfully delivered paid client projects and developed full-stack web applications using the MERN stack and Tailwind CSS. Focused on building robust REST APIs, managing MongoDB databases, and implementing modern UI/UX designs. Demonstrated ability to translate client requirements into functional, responsive, and high-performance web solutions.",
     },
   ];
 
