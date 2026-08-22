@@ -257,7 +257,7 @@ const Resume = () => {
                   Completed March 2026
                 </span>
                 <a
-                  href="#"
+                  href="/Saylani_Certificate.png"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center text-sm font-medium text-teal-600 dark:text-teal-400 hover:text-teal-700 dark:hover:text-teal-300 hover:underline"
