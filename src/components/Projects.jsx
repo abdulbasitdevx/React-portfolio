@@ -29,21 +29,22 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "AB Visionary Solutions",
-      description: "Professional business solutions platform showcasing services and expertise.",
-      image: "/images/ab-visionary-solutions-screenshot.png",
-      technologies: ["React", "Tailwind CSS", "JavaScript"],
-      liveLink: "https://ab-visionary-solutions.vercel.app/",
-      githubLink: "https://github.com/abdulbasitpro/Ab-visionary-solutions-"
+      title: "C. Ronaldo Sports",
+      description: "A sports goods shop e-commerce platform created as a demo website for a client in Karachi.",
+      image: "/images/ronaldo-sports-screenshot.png",
+      technologies: ["React", "Tailwind CSS", "Vite", "E-commerce"],
+      liveLink: "https://c-ronaldo-sports-33id.vercel.app/",
+      githubLink: "https://github.com/abdulbasitpro/C.-Ronaldo-sports",
+      projectType: "Client Demo Project"
     },
     {
       id: 4,
-      title: "Project of Elegence Arena",
-      description: "A sophisticated wedding hall booking system with elegant design and seamless reservation process.",
-      image: "/images/elegence-arena-screenshot.png",
+      title: "X-Café",
+      description: "A modern restaurant and cafe web application featuring family deals, online menu, and location details in Peshawar.",
+      image: "/images/x-cafe-screenshot.png",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
-      liveLink: "https://project-of-elegence-arena.vercel.app/",
-      githubLink: "https://github.com/abdulbasitpro/project-of-elegence-arena"
+      liveLink: "https://x-cafe-nu.vercel.app/",
+      githubLink: "https://github.com/abdulbasitpro/X-cafe"
     },
     {
       id: 5,
